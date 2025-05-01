@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="CounterStrikeSharp.API" Version="1.0.315" />
+        <PackageReference Include="Dapper" Version="2.1.35" />
+      <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <Reference Include="VipCoreApi">
+      <HintPath>E:\css\CS2\steamcmd\steamapps\common\cssharp\chajian\CounterStrikeSharp\counterstrikesharp\examples\cs2-VIPCore-1.3.4.30130031201303020\VIPCore\VipCoreApi.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+</Project>
